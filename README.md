@@ -162,7 +162,7 @@ It does not apply because it is a template.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, [issues](https://github.com/Alejandroq12/hello-rails-react-one-app-template/issues), and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
