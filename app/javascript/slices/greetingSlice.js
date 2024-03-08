@@ -1,6 +1,12 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
+const initialState = {
+  entity: '',
+  status: 'idle',
+  error: null,
+};
+
 // Async thunk action
 export const fetchGreeting = createAsyncThunk(
   'greetings/fetchGreeting',
@@ -12,7 +18,7 @@ export const fetchGreeting = createAsyncThunk(
 
 const greetingSlice = createSlice({
   name: 'greeting',
-  initialState: { entity: '', status: 'idle', error: null },
+  initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
